@@ -4,6 +4,8 @@ When we drive, we use our eyes to decide where to go.  The lines on the road tha
 
 The goal is piece together a pipeline to detect the line segments in the image, then average/extrapolate them and draw them onto the image for display.
 
+#### [Udacity Repo](https://github.com/udacity/CarND-LaneLines-P1)
+
 [//]: # (Image References)
 
 [img1]: ./test_images/solidWhiteRight.jpg
