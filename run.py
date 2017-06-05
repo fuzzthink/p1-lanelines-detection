@@ -35,10 +35,12 @@ else:
     ## run process_image on test images
     imgs_path = 'test_images/'
     out_path = 'output_images/'
-    dbg = False #True
+    dbg = False
+    # dbg = True
 
     for imgname in os.listdir(imgs_path):
         name, ext = imgname.split('.')
-        outimg, canny = process_image(mpimg.imread(imgs_path+imgname), True, dbg)
+        outimg, canny, masked = process_image(mpimg.imread(imgs_path+imgname), True, dbg)
         cv2.imwrite(out_path+name+'-canny.jpg', canny)
+        cv2.imwrite(out_path+name+'-masked.jpg', masked)
         cv2.imwrite(out_path+imgname, cv2.cvtColor(outimg, cv2.COLOR_RGB2BGR))

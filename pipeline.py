@@ -170,8 +170,8 @@ def process_image(image, return_list=False, dbg=False):
     '''
     img_gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY) # BGR2GRAY if via cv2.imread()
     edge_img = canny(img_gray)
-    masked_edge_img = mask_ROI(edge_img)
-    line_segments = hough_lines(masked_edge_img)
+    masked_img = mask_ROI(edge_img)
+    line_segments = hough_lines(masked_img)
     
     prvm = np.average(prvMs) if len(prvMs) >= prvFrames else 0
     prvb = np.average(prvBs) if len(prvBs) >= prvFrames else 0
@@ -184,4 +184,4 @@ def process_image(image, return_list=False, dbg=False):
     if len(prvMs) > prvFrames:
         prvMs.pop(0)
         prvBs.pop(0)
-    return [result, edge_img] if return_list else result
+    return [result, edge_img, masked_img] if return_list else result
