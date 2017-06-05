@@ -8,7 +8,7 @@ The goal of this [project](https://github.com/udacity/CarND-LaneLines-P1) is to 
 [img1]: ./test_images/solidWhiteRight.jpg
 [img2]: ./output_images/solidWhiteRight-canny.jpg
 [img3]: ./output_images/solidWhiteRight-masked.jpg
-[img4]: ./line-segments-example.jpg
+[img4]: ./assets/line-segments-example.jpg
 [img5]: ./output_images/solidWhiteRight.jpg
 
 ---
@@ -80,13 +80,13 @@ python run.py video_in.mp4 video-out.mp4 # produces project and challenge video 
 ### Output
 
 #### White Lanes Detection
-[![](./out-white-720thumb.jpg)](https://youtu.be/8sLgPvoZTGs "White Lane Line Basic Detection (Udacity sdcnd P1)")
+[![](assets/out-white-720thumb.jpg)](https://youtu.be/8sLgPvoZTGs "White Lane Line Basic Detection (Udacity sdcnd P1)")
 
 #### Yellow and White Lanes Detection
-[![](./out-yellow-720thumb.jpg)](https://youtu.be/oQi79QNV2pQ "Yellow Lane Line Basic Detection (Udacity sdcnd P1)")
+[![](assets/out-yellow-720thumb.jpg)](https://youtu.be/oQi79QNV2pQ "Yellow Lane Line Basic Detection (Udacity sdcnd P1)")
 
 #### Challenge Video Output
-[![](./out-challenge-720thumb.jpg)](https://youtu.be/mKxC1dtxVTo "Lane Lines Basic Detection Challenge Output (Udacity sdcnd P1)")
+[![](assets/out-challenge-720thumb.jpg)](https://youtu.be/mKxC1dtxVTo "Lane Lines Basic Detection Challenge Output (Udacity sdcnd P1)")
 
 
 ---
