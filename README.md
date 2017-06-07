@@ -29,30 +29,27 @@ The python source files are:
 The tools used for lane line detection are color selection, region of interest selection, grayscaling, Gaussian smoothing, Canny Edge Detection and Hough Tranform line detection. These methods form the pipeline to process each image from video to detect lane lines. 
 
 #### Step 1. Read in image
-![][img1]
 
-*Fig 1. Input image*
+*Input image*
+![][img1]
 
 
 #### Step 2. Generate Canny image output from grayscale of image
 
+*Canny image output*
 ![][img2]
-
-*Fig 2. Canny image output*
 
 
 #### Step 3. Define a Region of Interest and Mask out area outside of it
 
+*Region of Interest masked*
 ![][img3]
-
-*Fig 3. Region of Interest masked*
 
 
 #### Step 4. Use cv2.HoughLinesP() to derive line segment coordinates from step 2.
 
+*Line segments highlighted*
 ![][img4]
-
-*Fig 4. Line segments highlighted*
 
 
 #### Step 5. Calculate the left and right line coordinates from step 3 via averaging weighted slopes and y-intercepts, filtering out too short segments and filtering out slope and y-intercept outliers.
@@ -60,9 +57,8 @@ The tools used for lane line detection are color selection, region of interest s
 
 #### Step 6. Draw the two lane lines from step 4.
 
+*Result lane lines image*
 ![][img5]
-
-*Fig 5. Result lane lines image*
 
 
 ---
