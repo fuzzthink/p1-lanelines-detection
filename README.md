@@ -80,13 +80,13 @@ python run.py video_in.mp4 video-out.mp4 # produces project and challenge video 
 ### Output
 
 #### White Lanes Detection
-[![](assets/out-white-720thumb.jpg)](https://youtu.be/8sLgPvoZTGs "White Lane Line Basic Detection (Udacity sdcnd P1)")
+[![](assets/out-white-preview720.png)](https://youtu.be/8sLgPvoZTGs "White Lane Line Basic Detection (Udacity sdcnd P1)")
 
 #### Yellow and White Lanes Detection
-[![](assets/out-yellow-720thumb.jpg)](https://youtu.be/oQi79QNV2pQ "Yellow Lane Line Basic Detection (Udacity sdcnd P1)")
+[![](assets/out-yellow-preview720.png)](https://youtu.be/oQi79QNV2pQ "Yellow Lane Line Basic Detection (Udacity sdcnd P1)")
 
 #### Challenge Video Output
-[![](assets/out-challenge-720thumb.jpg)](https://youtu.be/mKxC1dtxVTo "Lane Lines Basic Detection Challenge Output (Udacity sdcnd P1)")
+[![](assets/out-challenge-preview720.png)](https://youtu.be/mKxC1dtxVTo "Lane Lines Basic Detection Challenge Output (Udacity sdcnd P1)")
 
 
 ---
